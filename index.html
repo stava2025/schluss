@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>STAVA Consultings</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <nav>
+    <img src="logo-small.png" alt="Logo" />
+    <div>
+      <a href="#vision">Vision</a>
+      <a href="#leistungen">Leistungen</a>
+      <a href="#ueberuns">Über uns</a>
+      <a href="#kontakt">Kontakt</a>
+    </div>
+  </nav>
+
+  <header>
+    <img src="logo-large.png" alt="STAVA Logo" class="main-logo" />
+    <h1>AI for Businesses</h1>
+    <p class="subline">Beratung für morgen – mit den Menschen von heute.</p>
+    <a href="#kontakt"><button class="cta">Kostenloses Erstgespräch vereinbaren</button></a>
+  </header>
+
+  <section id="vision">
+    <h2>Unsere Vision</h2>
+    <p class="about-text">Wir glauben an eine Zukunft, in der Unternehmen durch künstliche Intelligenz nicht nur effizienter, sondern auch menschlicher werden. Unser Ziel ist es, diese Zukunft mitzugestalten – mit Verantwortung, Respekt und technologischer Kompetenz.</p>
+    <blockquote>„Künstliche Intelligenz ist kein Ersatz für Menschen – sie ist ein Werkzeug, das Menschen stärker machen kann.“</blockquote>
+  </section>
+
+  <section id="leistungen">
+    <h2>Unsere Leistungen</h2>
+    <div class="grid grid-two">
+      <div class="card card1">
+        <h3>KI-Workshops & Schulungen</h3>
+        <p>Wir entwickeln individuelle Schulungskonzepte für Mitarbeitende – praxisnah, verständlich und ohne technisches Vorwissen.</p>
+      </div>
+      <div class="card card2">
+        <h3>Implementierung & Integration</h3>
+        <p>Von der Strategie bis zur Umsetzung – wir begleiten Unternehmen bei der Einführung maßgeschneiderter KI-Lösungen.</p>
+      </div>
+      <div class="card card3">
+        <h3>Prozessoptimierung mit KI</h3>
+        <p>Wir identifizieren Potenziale, reduzieren manuelle Aufgaben und steigern Effizienz durch datenbasierte Automatisierung.</p>
+      </div>
+      <div class="card card4">
+        <h3>Nachhaltige Begleitung</h3>
+        <p>Wir bleiben an Ihrer Seite – mit laufender Analyse, Betreuung und Weiterentwicklung Ihrer Systeme und Teams.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="ueberuns">
+    <h2>Über uns</h2>
+    <p class="about-text">Wir sind STAVA – Tim Lutz Vantler und Moritz Horst Frank Standke. Zwei Studenten des Wirtschaftsingenieurwesens mit einer gemeinsamen Vision: Unternehmen mit Menschlichkeit und KI zukunftssicher machen.</p>
+    <div class="team">
+      <div>
+        <img src="tim.jpg" alt="Tim L. Vantler" class="profile" />
+        <p><strong>Tim L. Vantler</strong><br>Student Wirtschaftsingenieurwesen (B.Eng.)<br>Fachrichtung Maschinenbau</p>
+      </div>
+      <div>
+        <img src="moritz.jpg" alt="Moritz H. F. Standke" class="profile" />
+        <p><strong>Moritz H. F. Standke</strong><br>Student Wirtschaftsingenieurwesen (B.Eng.)<br>Fachrichtung Elektrotechnik</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="kontakt">
+    <h2>Kontakt</h2>
+    <p class="about-text">Vereinbaren Sie ein kostenloses Erstgespräch – unverbindlich, individuell und auf Augenhöhe.</p>
+    <form>
+      <input type="text" placeholder="Vorname" required />
+      <input type="text" placeholder="Nachname" required />
+      <input type="email" placeholder="E-Mail-Adresse" required />
+      <textarea placeholder="Ihre Nachricht..." required></textarea>
+      <button type="submit">Absenden</button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="footer-links">
+      <a href="#" onclick="openPopup('impressum')">Impressum</a>
+      <a href="#" onclick="openPopup('datenschutz')">Datenschutz</a>
+      <a href="#" onclick="openPopup('agb')">AGB</a>
+      <a href="https://www.linkedin.com/in/stava-consultings-680691360" target="_blank">LinkedIn</a>
+    </div>
+    <div class="footer-contact">
+      <p>STAVA Consultings<br>Palanterstraße 10A<br>50937 Köln<br>stavaconsultings@gmail.com</p>
+    </div>
+    <p>&copy; 2025 STAVA Consultings</p>
+  </footer>
+
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <span class="close" onclick="closePopup()">&times;</span>
+      <div id="popup-text"></div>
+    </div>
+  </div>
+</body>
+</html>
